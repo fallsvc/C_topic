@@ -280,7 +280,7 @@
 
 //6.
 #include <string.h>
-void bubbleSort(int* arr[], int n)
+void bubbleSort(char* arr[], int n)
 {
 	int i = 0;
 	int j = 0;
@@ -306,13 +306,11 @@ int main()
 	getchar();
 	int i = 0;
 	//input strings
-	for (i = 0; i < num_str-1; i++)
+	for (i = 0; i < num_str; i++)
 	{
 		gets(arr[i]);
-		getchar();
 	}
-	// 
-	gets(arr[i]);
+
 	//
 	char* arr2[100] = { 0 };
 	for (i = 0; i < num_str; i++)
